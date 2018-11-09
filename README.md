@@ -1,27 +1,14 @@
-# TestMoviesAngular
+1 - Para Executar o Projeto é necessário que possua o angular-cli instalado. Caso não tenha executar seguinte comando:
+* npm install -g @angular/cli
+2 - Para subir a aplicação execute seguinte comando
+* ng serve -o
+Esse comando iniciará a aplicacão e abrirá ela automaticamente no seu browser identificando o caminho (http://localhost:4200)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
+Tecnologias Utilizadas:
+Angular 6
+Bootstrap 4
+SASS
+RXJS
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Observações
+*Não fiz nenhum serviço para tratar comentários pois não foi solicitado, pois então, deixei eles hardcoded no html mesmo. Poderia fazer mas levaria mais tempo, e utlizaria os mesmos conhecimentos aplicados em POSTS.

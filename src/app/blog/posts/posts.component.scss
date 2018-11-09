@@ -1,0 +1,25 @@
+.post {
+    .div-thumbnail {
+        padding-left: 0px;
+        .img-place-holder:hover {
+            cursor: pointer;
+            box-shadow: 0 8px 6px -6px black;
+            transform: scale(1.2);
+        }
+    }
+    h1 {
+        color: #666667;
+    }
+    .separator {
+        margin: 0 auto;
+        border: 1px solid #e4e4e4;
+    }
+    .count-coments:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .rounded-circle {
+        width: 55px;
+        height: 55px;
+    }
+}
